@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "779055512838",
+    "project_id": "institutodamusica-3d19e",
+    "storage_bucket": "institutodamusica-3d19e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779055512838:android:1c63aaca8c6366daef3287",
+        "android_client_info": {
+          "package_name": "com.example.institutodemusica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGhoZSiWU5l7GUol5vIKuJHwb7TwkiTqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
