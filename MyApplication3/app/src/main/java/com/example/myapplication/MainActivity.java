@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         DatabaseReference produtos = myRef.child("Produtos");
 
         Produto p = new Produto("Coca-cola zero", 9.99);
-        produtos.child("004").setValue(p);
+        produtos.child("001").setValue(p);
 
 //        myRef.child("001")
 //                .child("nome")

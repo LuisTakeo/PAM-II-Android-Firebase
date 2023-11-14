@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "505650002739",
+    "project_id": "nsa-camargoaranha",
+    "storage_bucket": "nsa-camargoaranha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505650002739:android:cf00dd816b3a13797b5c46",
+        "android_client_info": {
+          "package_name": "com.example.camargoaranha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8KrnKJBeu1AxZdnkgcHh543LqpxpNnJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
