@@ -29,14 +29,24 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        nomeEditText = findViewById(R.id.editTextRmAluno);
+
+        nomeEditText = findViewById(R.id.editTextNome);
+        emailEditText = findViewById(R.id.editTextEmail);
+        celularEditText = findViewById(R.id.editTextCelular);
+        enderecoEditText = findViewById(R.id.editTextEndereco);
+        complementoEditText = findViewById(R.id.editTextComplemento);
+        cidadeEditText = findViewById(R.id.editTextCidade);
+        estadoEditText = findViewById(R.id.editTextEstado;
+        cepEditText = findViewById(R.id.editTextCep;
+        emailEditText = findViewById(R.id.editTextCurso;
 
         Aluno novoAluno = new Aluno();
-        novoAluno.setRmAluno(nomeEditText.getText().toString());
-        novoAluno.setNome(R.id.editTextNome);
-        novoAluno.setEmail(R.id.editTextEmail);
-        novoAluno.setCelular(R.id.editTextCelular);
-        novoAluno.setTelefone(R.id.editTextTelefone);
+        novoAluno.setRmAluno(nomeEditText.toString());
+        novoAluno.setNome(nomeEditText.toString());
+        novoAluno.setEmail(emailEditText.toString());
+        novoAluno.setCelular(celularEditText.toString());
+        novoAluno.setTelefone(telefoneEditText.toString());
+//        novoAluno.setEndereco(endere);
 
 
 
