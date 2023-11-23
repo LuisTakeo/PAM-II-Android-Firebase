@@ -62,6 +62,24 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 criarCadastro(novoAluno);
 //                Toast.makeText(MainActivity.this, "Cadastro criado com sucesso!", Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
+        Button buttonClear = (Button) findViewById(R.id.buttonClear);
+        buttonClear.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                rmEditText.setText("");
+                nomeEditText.setText("");
+                emailEditText.setText("");
+                celularEditText.setText("");
+                telefoneEditText.setText("");
+                enderecoEditText.setText("");
+                complementoEditText.setText("");
+                cidadeEditText.setText("");
+                estadoEditText.setText("");
+                cepEditText.setText("");
+                cursoEditText.setText("");
             }
         });
 
